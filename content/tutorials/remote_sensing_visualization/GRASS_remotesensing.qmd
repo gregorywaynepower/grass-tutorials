@@ -709,7 +709,7 @@ GRASS has many more features and tools for working with remote sensing data.
 
     -   Image [correction and calibration](https://grass.osgeo.org/grass-stable/manuals/imageryintro.html#radiometric-corrections)
 
-    -   Image [georectification](https://grass.osgeo.org/grass-stable/manuals/imageryintro.html#geocoding-of-imagery-data))
+    -   Image [georectification](https://grass.osgeo.org/grass-stable/manuals/imageryintro.html#geocoding-of-imagery-data)
 
     -   Machine learning algorithms for [unsurpervised and supervised image classification](https://grass.osgeo.org/grass-stable/manuals/imageryintro.html#image-classification) and [feature detection](https://grass.osgeo.org/grass-stable/manuals/addons/r.learn.ml2.html)
 
