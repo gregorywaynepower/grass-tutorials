@@ -277,7 +277,7 @@ We will start by creating a new color-shaded relief map using [r.shade](https://
 #### Command line  
 
 ```{bash}
-r.shade shade=relief color=elevation output=topography_colored_relief brighten=40]
+r.shade shade=relief color=elevation output=topography_colored_relief brighten=40
 ```
 
 #### Python
@@ -1081,4 +1081,4 @@ To display the stream network without the junction nodes, uncheck the "point" bo
 
 # Summary
 
-In this tutorial we have gone over only a few of the many tools available in GRASS to conduct terrain and watershed analysis. We used the Flagstaff sample dataset to complete this analysis, but you can also try this other datasets and DEM maps. You can also use the GRASS sample datasets to explore the many other tools available under the terrain analysis and [hydrology](https://grass.osgeo.org/grass-stable/manuals/topic_hydrology.html) hydrology sections. In addition to the main GRASS modules, there are also many others available as [GRASS addons](https://grass.osgeo.org/grass-stable/manuals/addons/).  
+In this tutorial we have gone over only a few of the many tools available in GRASS to conduct terrain and watershed analysis. We used the Flagstaff sample dataset to complete this analysis, but you can also try this other datasets and DEM maps. You can also use the GRASS sample datasets to explore the many other tools available under the terrain analysis and [hydrology](https://grass.osgeo.org/grass-stable/manuals/topic_hydrology.html) sections. In addition to the main GRASS modules, there are also many others available as [GRASS addons](https://grass.osgeo.org/grass-stable/manuals/addons/).  
