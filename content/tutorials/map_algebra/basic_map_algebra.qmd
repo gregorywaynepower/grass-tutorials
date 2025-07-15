@@ -8,8 +8,9 @@ description: >
   Learn the basics of map algebra in GRASS
   including arithmetic, functions, and logic. 
   Use map algebra to model a landscape.
-thumbnail: images/map_algebra_00.webp
+image: images/map_algebra_01.webp
 links:
+  g_region: "[g.region](https://grass.osgeo.org/grass-stable/manuals/g.region.html)"
   r_mapcalc: "[r.mapcalc](https://grass.osgeo.org/grass-stable/manuals/r.mapcalc.html)"
   r_mapcalc_simple: "[r.mapcalc.simple](https://grass.osgeo.org/grass-stable/manuals/r.mapcalc.simple.html)"
   r_series: "[r.series](https://grass.osgeo.org/grass-stable/manuals/r.series.html)"
@@ -150,7 +151,7 @@ Map algebra operators, functions, and variables in this tutorial
 
 # Setup
 Start a GRASS session in a new project with a Cartesian (XY) coordinate system.
-Use [g.region](https://grass.osgeo.org/grass-stable/manuals/g.region.html)
+Use {{< meta links.g_region >}}
 to set the extent and resolution of the computational region.
 Since we are working in a Cartesian coordinate system,
 we can simply create a region starting at the origin
@@ -285,7 +286,7 @@ Print the rescaled elevation range with
 ```{bash}
 r.mapcalc expression="elevation = fractal / 10"
 r.colors map=elevation color=elevation
-r.info -r map=elevation format=plain
+r.info -r map=elevation
 ```
 ## Python
 ```{python}
